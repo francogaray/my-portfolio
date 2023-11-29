@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import ReactImg from "../assets/download.jpeg";
+import ReactImg from "../assets/react-native.png";
 
 const Projects = () => {
     return (
@@ -10,20 +10,20 @@ const Projects = () => {
             <p className="text-center py-8">
                 He participado en la realización de diversos proyectos.
                 <br />
-                Algunos fueron realizados de manera indivudual y otros en su
-                mayoría fueron desarrllados en grupo y equipos de trabajo bajo
+                Algunos fueron realizados de manera individual y otros en su
+                mayoría fueron desarrollados en grupo y equipos de trabajo bajo
                 la metodología ágil SCRUM
                 <br />
                 En la mayoría de ellos se utilizan las tecnologías abajo
-                mensionadas como HTML5, CSS, JAVASCRIPT, REACT, NODE, etc...
+                mencionadas como HTML5, CSS, JAVASCRIPT, REACT, NODE, etc.
                 <br />
-                En cada uno de ellos encontrarás un link al sitio en producción como tabién al repositorio!
+                En cada uno de ellos encontrarás un link al repositorio con más información!
             </p>
             <div className="grid sm:grid-cols-2 gap-12">
-                <ProjectItem img={ReactImg} title="Project X" />
-                <ProjectItem img={ReactImg} title="Project X" />
-                <ProjectItem img={ReactImg} title="Project X" />
-                <ProjectItem img={ReactImg} title="Project X" />
+                <ProjectItem img={ReactImg} link={'https://github.com/francogaray/pokedex-app.git'} title="Pokedex-app" />
+                <ProjectItem img={ReactImg} link={'https://github.com/francogaray/calories-counter-app.git'} title="Calorie counter" />
+                <ProjectItem img={ReactImg} link={'https://github.com/francogaray/nasa-pic-of-day.git'} title="Nasa pic of day" />
+                <ProjectItem img={ReactImg} link={'https://github.com/francogaray/ '} title="Pomodoro-App" />
             </div>
         </div>
     );

@@ -2,7 +2,7 @@ const Contact = () => {
     return (
         <div
             id="contact"
-            className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 "
+            className="max-w-[1040px] m-auto md:px-20 p-4 py-16 bg-gradient-to-tl from-[#1f97ba] to-[#5ce1e6]"
         >
             <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
                 Contact
@@ -62,7 +62,7 @@ const Contact = () => {
                     </label>
                     <textarea className="border-2 rounded-lg p-3 border-gray-300" rows="10" name="message"></textarea>
                 </div>
-                <button className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg">
+                <button className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg  shadow-2xl shadow-gray-700">
                     Send Message
                 </button>
             </form>

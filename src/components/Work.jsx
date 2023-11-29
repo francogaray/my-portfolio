@@ -6,7 +6,7 @@ const data = [
         year: 2022,
         title: "CoderHouse",
         duration: "07-2022 - Atctualidad",
-        description: `Tutor en los cursos de "Desarrollo Web", "React", "Backend con NodeJs"`,
+        description: `Tutor en los cursos de: "React Native", "Backend con NodeJs", "React", "Desarrollo Web" y "Metodolgías ágiles"`,
     },
     {
         year: 2022,
@@ -24,17 +24,17 @@ const data = [
 
 const Work = () => {
     return (
-        <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-            <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+        <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-gradient-to-tl from-[#1f97ba] to-[#5ce1e6]">
+            <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-2">
                 Work
             </h1>
-            <div>
+            <div className=" mb-4">
                 <p>
                     Luego de mis capacitaciones pude poner en práctica todo lo
                     aprendido en diferentes proyectos.
                     <br />
-                    Realicé pasantías como Tester QA poniendo en práctiac
-                    metodolías agiles (SCRUM).
+                    Realicé pasantías como Tester QA poniendo en práctica
+                    metodogías ágiles (SCRUM).
                     <br />
                     También desempeñé el rol como Mentor y Tutor, brindando
                     clases, workshops y seguimiento a los alumnos como asi
@@ -51,7 +51,7 @@ const Work = () => {
                     description={item.description}
                 />
             ))}
-            <div className=" w-[90%] flex flex-col items-center border ]  rounded-lg p-6 ">
+            <div className=" w-[90%] flex flex-col items-center border ]  rounded-lg p-6 mb-6">
                 <div className="flex  text-[#001B5E] justify-center items-center ">
                     <h2 className="inline-block px-2 py-1 text-3xl  ">
                         Skills{" "}

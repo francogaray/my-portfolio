@@ -4,14 +4,14 @@ const AboutMe = () => {
     return (
         <div
             id="aboutMe"
-            className="max-w-[1040px] h-[100vh] m-auto md:pl-20 p-4 py-16 bg-gradient-to-tl from-[#001B5E] to-[#5ce1e6]"
+            className="max-w-[1040px]  m-auto md:pl-20 md:flex-row p-4 py-16 bg-gradient-to-tl from-[#1f97ba] to-[#5ce1e6]"
         >
             <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-10">
                 About Me
             </h1>
 
-            <div className="flex items-center justify-center">
-                <div className="w-full min-w-[200px] m-4">
+            <div className="flex flex-col md:flex-row items-center justify-center">
+                <div className="w-full flex justify-center min-w-[200px] m-4">
                     <img
                         className=" rounded-full shadow-2xl shadow-gray-400"
                         src={profilePhoto}

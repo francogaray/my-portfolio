@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     scroll-behavior: smooth;
+}
+body {
+    background: rgb(3, 152, 158);
+    background: linear-gradient(
+        87deg,
+        rgba(3, 152, 158, 1) 0%,
+        rgba(161, 251, 255, 1) 50%,
+        rgba(3, 152, 158, 1) 100%
+    );
 }
