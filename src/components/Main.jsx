@@ -66,7 +66,7 @@ const Main = () => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href="https://drive.google.com/file/d/1BZ_prKtZS3s3JdhK-J_zCPcfwnQvRD6l/view?usp=sharing"
+                            href="https://drive.google.com/file/d/17JB2zXqvK1nZZrzkNntS90DEGEKiMxeI/view?usp=sharing"
                             className="ml-2 text-lg font-bold "
                         >
                             Download CV

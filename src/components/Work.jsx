@@ -5,7 +5,7 @@ const data = [
     {
         year: 2022,
         title: "CoderHouse",
-        duration: "07-2022 - Atctualidad",
+        duration: "07-2022 - Actualidad",
         description: `Tutor en los cursos de: "React Native", "Backend con NodeJs", "React", "Desarrollo Web" y "Metodolgías ágiles"`,
     },
     {
