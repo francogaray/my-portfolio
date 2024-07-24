@@ -19,7 +19,7 @@ const cardsData = [
         imgUrl: "./developer-full-stack.png",
     },
     {
-        title: "SCRUM - agile methodologys",
+        title: "SCRUM - agile methodologies",
         content: "Scrum Foundation",
         imgUrl: "./certification-scrum.png",
     },
@@ -34,14 +34,14 @@ const Card = ({ imgUrl, title, content, linkUrl }) => (
     <a
         href="https://www.linkedin.com/in/franco-david-garay-/"
         target="blank"
-        className="card flex-[1 0 250px] m-4 rounded-md hover:scale-110 ease-in duration-200 shadow-lg bg-white shadow-gray-400 cursor-pointer"
+        className="card  m-4 rounded-md hover:scale-110 ease-in duration-200 shadow-lg bg-[#c81e37] cursor-pointer"
     >
         <img
-            className="h-36 min-w-[300px] object-contain"
+            className=" max-sm:max-h-[100px] max-sm:max-w-[200px] bg-white max-h-[200px] min-h-[200px] min-w-[300px] max-w-[300px] object-contain"
             src={imgUrl}
             alt={imgUrl}
         />
-        <div className="card-content px-6 bg-gray-200 h-[88px] rounded-md">
+        <div className="card-content h-full px-6  font-bold text-white rounded-md align-bottom">
             <h2>{title}</h2>
             <p>{content}</p>
         </div>
@@ -49,7 +49,7 @@ const Card = ({ imgUrl, title, content, linkUrl }) => (
 );
 
 const CardContainer = ({ cards }) => (
-    <div className="cards-container w-full flex overflow-x-auto pb-4">
+    <div className="cards-container h-auto  w-full flex overflow-x-auto overflow-y-hidden">
         {cards.map((card, idx) => (
             <Card
                 key={idx}

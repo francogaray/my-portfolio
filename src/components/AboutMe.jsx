@@ -1,49 +1,99 @@
 import profilePhoto from "../assets/profile.jpeg";
+import { TypeAnimation } from "react-type-animation";
+import { FaFileDownload } from "react-icons/fa";
 
 const AboutMe = () => {
     return (
         <div
             id="aboutMe"
-            className="max-w-[1040px]  m-auto md:pl-20 md:flex-row p-4 py-16 bg-gradient-to-tl from-[#1f97ba] to-[#5ce1e6]"
+            className="  m-auto md:pl-20 p-4 py-16 flex flex-col items-center justify-center"
         >
-            <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-10">
-                About Me
+            <h1 className="text-4xl font-bold text-center text-black mb-10">
+                Acerca de mí
             </h1>
-
-            <div className="flex flex-col md:flex-row items-center justify-center">
-                <div className="w-full flex justify-center min-w-[200px] m-4">
+            <div className="flex flex-col md:flex-row md:items-start items-center justify-center">
+                <div className="w-full flex justify-center min-w-[200px] max-w-[400px]">
                     <img
                         className=" rounded-full shadow-2xl shadow-gray-400"
                         src={profilePhoto}
                         alt="profile photo"
                     />
                 </div>
-                <div>
-                    <p>
-                        Hola! Bienvenido y gracias por visitar mi portafolio web. Me llamo Franco Garay y vivo en Córdoba, Argentina.
-                        Soy desarrollador FullStack.
-                        <br />
-                        Permíteme contarte un poco más sobre mí y mi
-                        pasión por lo que hago.
-                        <br />
-                        <br />
-                        Desde que era un niño, siempre he tenido una fascinación
-                        por la tecnología. Esta curiosidad me llevó a explorar
-                        el mundo de la programación y el desarrollo web.
-                        <br />
-                        <br />
-                        Lo que más me emociona de este camino es el deseo constante de aprender y superar mis propios límites. Creo firmemente en la formación continua y me esfuerzo por adquirir nuevas habilidades y perfeccionar las que ya tengo.
-                        <br />
-                        <br />
-                        Mi personalidad sociable y mi capacidad para trabajar de manera eficiente me han permitido disfrutar tanto del trabajo en solitario como en equipos colaborativos. Creo que la diversidad de ideas y la colaboración son esenciales para alcanzar resultados excepcionales.
-                        <br />
-                        <br />
-                        En este momento, me encuentro en búsqueda de emocionantes oportunidades que desafíen mis habilidades y compromiso. Mi objetivo es aplicar mi experiencia y conocimientos para contribuir al éxito de proyectos innovadores y apasionantes.
-                        <br />
-                        <br />
-                        Gracias por visitar mi portafolio!
-                    </p>
+                <div className="flex flex-col justify-center items-center m-4">
+                    <div className="md:mx-6">
+                        <div className="flex flex-col sm:flex-row text-center pb-1">
+                            <h3 className=" flex">
+                                Hola! Me llamo Franco Garay y soy
+                            </h3>
+
+                            <TypeAnimation
+                                sequence={[
+                                    "Web Developer.",
+                                    1400,
+                                    // Same substring at the start will only be typed out once, initially
+                                    "Mobile Developer.",
+                                    1400, // wait 1s before replacing "Mice" with "Hamsters"
+                                    "Freelancer.",
+                                    1400,
+                                    "Desarrollador Javascript.",
+                                    1400,
+                                    "Developer FullStack.",
+                                    1400,
+                                ]}
+                                wrapper="span"
+                                speed={50}
+                                style={{
+                                    fontSize: "1rem",
+                                    display: "inline-block",
+                                    paddingLeft: "5px",
+                                    fontWeight: "bold",
+                                    color: "#c81e37",
+                                    textAlign: "left",
+                                }}
+                                repeat={Infinity}
+                            />
+                        </div>
+                        <h3 className="pb-2">
+                            Me desempeño como Desarrollador <b>Full-Stack</b>,
+                            donde utilizo una variedad de tecnologías modernas
+                            para brindar soluciones digitales innovadoras.
+                        </h3>
+                        <h3 className="pb-2">
+                            Cuento con habilidades tanto en desarrollo{" "}
+                            <b>frontend</b> como
+                            <b> backend</b>, y también tengo experiencia en el
+                            desarrollo de
+                            <b> aplicaciones móviles</b>.
+                        </h3>
+                        <h3 className="pb-2">
+                            Además, me encuentro cursando la carrera de{" "}
+                            <b>Analista en Sistemas </b>, lo que me permite
+                            complementar mis competencias técnicas con una base
+                            teórica sólida.
+                            <br />
+                            <br />
+                            Estoy en constante formación y busco oportunidades
+                            que me permitan seguir creciendo como profesional.
+                            Me sienta muy bien trabajar en equipo y poder
+                            colaborar y cumplir objetivos.
+                            <br />
+                            <br />
+                            Si quieres conocer más a sobre mí te invito a
+                            descargar mi CV!
+                        </h3>
+                    </div>
                 </div>
+            </div>
+            <div className="bg-[#c81e37] flex justify-evenly text-gray-100 mt-6 w-full  max-w-[250px] p-4 rounded-lg cursor-pointer  shadow-2xl shadow-gray-700 ">
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://drive.google.com/file/d/17JB2zXqvK1nZZrzkNntS90DEGEKiMxeI/view?usp=sharing"
+                    className="ml-2 text-2xl font-bold "
+                >
+                    Descargar CV
+                </a>
+                <FaFileDownload className=" cursor-pointer" size={30} />
             </div>
         </div>
     );
