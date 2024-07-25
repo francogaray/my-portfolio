@@ -78,7 +78,7 @@ const AboutMe = () => {
                             colaborar y cumplir objetivos.
                             <br />
                             <br />
-                            Si quieres conocer más a sobre mí te invito a
+                            Si quieres conocer más sobre mí te invito a
                             descargar mi CV!
                         </h3>
                     </div>
@@ -87,9 +87,11 @@ const AboutMe = () => {
             <div className="bg-[#c81e37] flex justify-evenly text-gray-100 mt-6 w-full  max-w-[250px] p-4 rounded-lg cursor-pointer  shadow-2xl shadow-gray-700 ">
                 <a
                     target="_blank"
-                    rel="noreferrer"
-                    href="https://drive.google.com/file/d/17JB2zXqvK1nZZrzkNntS90DEGEKiMxeI/view?usp=sharing"
+                    //rel="noreferrer"
+                    //href="https://drive.google.com/file/d/17JB2zXqvK1nZZrzkNntS90DEGEKiMxeI/view?usp=sharing"
+                    href="../../public/cv.pdf"
                     className="ml-2 text-2xl font-bold "
+                    download
                 >
                     Descargar CV
                 </a>

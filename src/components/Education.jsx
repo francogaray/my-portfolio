@@ -14,7 +14,7 @@ const AboutMe = () => {
                     <SkillItem />
                 </div>
             </div>
-            <div className="w-[100%] pr-4 flex flex-col items-center rounded-lg p-6 overflow-y-hidden overflow-x-scroll">
+            <div className="w-[100%] pr-4 flex flex-col items-center rounded-lg p-6">
                 <CarouselCard />
             </div>
         </div>

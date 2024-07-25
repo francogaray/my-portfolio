@@ -8,10 +8,10 @@ import {
 export default function Footer() {
     return (
         <MDBFooter className="bg-dark text-center text-white"
-        style={{ backgroundColor: "#001b5e" }}>
+        style={{ backgroundColor: "#1f2938" }}>
             <div
                 className="text-center p-3 flex flex-row justify-around m-auto w-[55%] "
-                style={{ backgroundColor: "#001b5e" }}
+                style={{ backgroundColor: "#1f2938" }}
             >
                 <a
                     href="https://www.linkedin.com/in/franco-david-garay-466699238/"
@@ -27,13 +27,13 @@ export default function Footer() {
                 >
                     <FaGithub className=" cursor-pointer" size={40} />
                 </a>
-                <a href="mailto:contacto@francodev.com.ar">
+                <a href="mailto:francogaray.dev@gmail.com">
                     <FaEnvelope className=" cursor-pointer" size={40} />
                 </a>
             </div>
             <div
                 className="text-center p-3"
-                style={{ backgroundColor: "#001b5e" }}
+                style={{ backgroundColor: "#1f2938" }}
             >
                 &copy; {new Date().getFullYear()} Copyright:{" "}
                 <a className="text-dark" href="https://francodev.com.ar">

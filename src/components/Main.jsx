@@ -3,7 +3,6 @@ import {
     FaLinkedin,
     FaGithub,
     FaEnvelope,
-    //FaFileDownload,
 } from "react-icons/fa";
 
 const Main = () => {
@@ -85,15 +84,12 @@ const Main = () => {
                     </div>
                     <div className="bg-[#c81e37] flex justify-evenly text-gray-100 mt-16 w-full  max-w-[250px] p-4 rounded-lg cursor-pointer  shadow-2xl shadow-gray-700 ">
                         <a
-                            //target="_blank"
                             rel="noreferrer"
-                            //href="https://drive.google.com/file/d/17JB2zXqvK1nZZrzkNntS90DEGEKiMxeI/view?usp=sharing"
                             className="ml-2 text-2xl font-bold "
                             href="#contact"
                         >
                             Contáctame
                         </a>
-                        {/* <FaFileDownload className=" cursor-pointer" size={30} /> */}
                     </div>
                 </div>
             </div>

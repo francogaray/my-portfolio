@@ -1,23 +1,20 @@
 const cardsData = [
     {
-        title: "MENTOR FRONT END JR.",
-        content: "Mind-hub",
-        imgUrl: "./mentor.png",
+        title: "WEB DEVELOPER FULL STACK MERN & MOBILE APPS",
+        content: "Mind-Hub",
+        imgUrl: "./developer-full-stack.png",
     },
     {
         title: "FULL STACK JAVASCRIPT",
         content: "Platzi",
         imgUrl: "./full-stack-platzi.png",
-    },   {
+    },
+    {
         title: "REACT NATIVE DEVELOPER",
         content: "Platzi",
         imgUrl: "./intro-react-native.png",
     },
-    {
-        title: "WEB DEVELOPER FULL STACK MERN & MOBILE APPS",
-        content: "Mind-hub",
-        imgUrl: "./developer-full-stack.png",
-    },
+
     {
         title: "SCRUM - agile methodologies",
         content: "Scrum Foundation",
@@ -27,6 +24,11 @@ const cardsData = [
         title: "EF SET English Certificate (B1 Intermediate)",
         content: "EF Standard English Test",
         imgUrl: "./EFSETCertificate.png",
+    },
+    {
+        title: "MENTOR FRONT END JR.",
+        content: "Mind-hub",
+        imgUrl: "./mentor.png",
     },
 ];
 
@@ -49,7 +51,7 @@ const Card = ({ imgUrl, title, content, linkUrl }) => (
 );
 
 const CardContainer = ({ cards }) => (
-    <div className="cards-container h-auto  w-full flex overflow-x-auto overflow-y-hidden">
+    <div className="cards-container h-auto  w-full flex overflow-x-scroll overflow-y-hidden">
         {cards.map((card, idx) => (
             <Card
                 key={idx}
