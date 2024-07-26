@@ -89,7 +89,7 @@ const AboutMe = () => {
                     target="_blank"
                     //rel="noreferrer"
                     //href="https://drive.google.com/file/d/17JB2zXqvK1nZZrzkNntS90DEGEKiMxeI/view?usp=sharing"
-                    href="../../public/cv.pdf"
+                    href="../../public/Cv-FrancoGaray-Developer.pdf"
                     className="ml-2 text-2xl font-bold "
                     download
                 >
