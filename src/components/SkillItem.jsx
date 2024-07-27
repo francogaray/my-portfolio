@@ -72,6 +72,22 @@ const SkillItem = () => {
             name: "Vite",
             logo: "./skills-logo/vite.png",
         },
+        {
+            name: "Expo",
+            logo: "./skills-logo/expo.png",
+        },
+        {
+            name: "Postman",
+            logo: "./skills-logo/postman.png",
+        },
+        {
+            name: "Redux",
+            logo: "./skills-logo/redux.png",
+        },
+        {
+            name: "Typescript",
+            logo: "./skills-logo/typescript.png",
+        },
     ];
 
     return (
@@ -82,7 +98,11 @@ const SkillItem = () => {
                         {item.name}
                     </p>
                     <div className=" md:w-[130px] w-[70px] items-center m-1 p-2 rounded-full hover:scale-110 ease-in duration-200 shadow-  shadow-gray-300 bg-white">
-                        <img className="md:p-5 p-2" src={item.logo} alt="logo" />
+                        <img
+                            className="md:p-5 p-2"
+                            src={item.logo}
+                            alt="logo"
+                        />
                     </div>
                 </div>
             ))}
