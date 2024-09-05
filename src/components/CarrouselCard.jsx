@@ -34,7 +34,7 @@ const cardsData = [
 
 const Card = ({ imgUrl, title, content, linkUrl }) => (
     <a
-        href="https://www.linkedin.com/in/franco-david-garay-/"
+        href="https://www.linkedin.com/in/francodavidgaray/"
         target="blank"
         className="card  m-4 rounded-md hover:scale-110 ease-in duration-200 shadow-lg bg-[#c81e37] cursor-pointer"
     >

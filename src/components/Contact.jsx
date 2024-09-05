@@ -85,6 +85,7 @@ const Contact = () => {
                                 </label>
                                 <input
                                     type="text"
+                                    required
                                     id="name"
                                     name="name"
                                     className="w-full border-2 border-gray-300 rounded-lg py-1 px-3 focus:outline-none focus:ring-2 focus:ring-[#1f2938] focus:border-transparent"
@@ -100,6 +101,7 @@ const Contact = () => {
                                 <input
                                     type="email"
                                     id="email"
+                                    required
                                     name="email"
                                     className="w-full  border-2 border-gray-300 rounded-lg py-1 px-3 focus:outline-none focus:ring-2 focus:ring-[#1f2938] focus:border-transparent"
                                 />

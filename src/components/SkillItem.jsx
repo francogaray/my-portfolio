@@ -1,6 +1,10 @@
 const SkillItem = () => {
     const dataSkill = [
         {
+            name: "Vscode",
+            logo: "./skills-logo/vscode.png",
+        },
+        {
             name: "Bootstrap",
             logo: "./skills-logo/bootstrap.png",
         },

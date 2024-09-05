@@ -53,7 +53,7 @@ const Main = () => {
                     </h2>
                     <div className="flex justify-between pt-6 max-w-[250px] w-full mt-2">
                         <a
-                            href="https://www.linkedin.com/in/franco-david-garay-466699238/"
+                            href="https://www.linkedin.com/in/francodavidgaray/"
                             rel="noreferrer"
                             target="_blank"
                         >
