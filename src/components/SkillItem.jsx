@@ -49,6 +49,10 @@ const SkillItem = () => {
             logo: "./skills-logo/node.png",
         },
         {
+            name: "NestJs",
+            logo: "./skills-logo/nestjs.png",
+        },
+        {
             name: "Npm",
             logo: "./skills-logo/npm.png",
         },
